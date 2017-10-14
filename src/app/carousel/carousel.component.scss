@@ -1,0 +1,9 @@
+::ng-deep .carousel-item.active {
+  border: solid 0.1em;
+  border-color: white;
+}
+
+::ng-deep .carousel-item.active > img{
+  height:auto;
+  width:100%;
+}
