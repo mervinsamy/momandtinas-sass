@@ -7,6 +7,9 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./carousel.component.scss']
 })
 export class CarouselComponent{
+  pecanImg = 'assets/images/pecan_cupcakes.jpg';
+  bbqBurgerImg = 'assets/images/bacon_bbq_burger.jpg';
+  banofeeImg = 'assets/images/banofee_pie.jpg';
   constructor(config: NgbCarouselConfig) {
     // customize carousel
     config.interval = 4000;
